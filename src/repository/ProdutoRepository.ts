@@ -1,13 +1,6 @@
 import { AbstrataProduto } from "../model/AbstrataProduto";
-import { Repository } from "../repository/Repository";
 
-export class ProdutoRepository implements Repository<AbstrataProduto> {
-    buscarPorId(id: number): AbstrataProduto | undefined {
-        return this.produtos.find(p => p.getId() === id)
-    }
-    deletar(id: number): void {
-        this.produtos = this.produtos.filter(p => p.getId() !== id)
-    }
+export class ProdutoRepository {
     private produtos: AbstrataProduto[] = [];
 
     salvar(produto: AbstrataProduto): void {
@@ -18,5 +11,11 @@ export class ProdutoRepository implements Repository<AbstrataProduto> {
         return this.produtos;
     }
 
+    buscarPorId(id: number): AbstrataProduto | undefined {
+        return this.produtos.find(p => p.getId() === id);
+    }
 
+    deletar(id: number): void {
+        this.produtos = this.produtos.filter(p => p.getId() !== id);
+    }
 }
