@@ -1,6 +1,12 @@
 # 🧩 Projeto Final - Bloco 01
 
-Este repositório contém o projeto final desenvolvido durante o **Bloco 01** do curso. O objetivo principal é consolidar os conhecimentos adquiridos em **TypeScript**, **POO (Programação Orientada a Objetos)** e estruturação de projetos com **padrões MVC**.
+Este repositório contém o projeto final desenvolvido durante o Bloco 01 do curso. O objetivo principal deste sistema de e-commerce é consolidar os conhecimentos adquiridos ao longo do módulo, com foco em:
+
+TypeScript como linguagem principal
+
+POO (Programação Orientada a Objetos) para estruturar as classes e entidades do sistema
+
+Padrão MVC (Model-View-Controller) para organizar o projeto de forma clara e escalável
 
 ## 🎯 Objetivo
 
